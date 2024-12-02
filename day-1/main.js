@@ -1,7 +1,3 @@
-export function add(a, b) {
-  return a + b;
-}
-
 async function readInputToArray() {
   const text = await Deno.readTextFile("input.txt");
   const textArray = text.split("\n");
